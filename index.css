@@ -1,0 +1,21 @@
+.foo {
+  position-anchor: --position-anchor;
+}
+
+.bar {
+  position-anchor: --position-anchor;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.baz {
+  position: relative;
+  position-anchor: --position-anchor;
+  box-sizing: border-box;
+}
+
+.qux {
+  position: relative;
+  box-sizing: border-box;
+  position-anchor: --position-anchor;
+}
